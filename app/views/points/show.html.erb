@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Latitude:</strong>
+  <%= @point.latitude %>
+</p>
+
+<p>
+  <strong>Longitude:</strong>
+  <%= @point.longitude %>
+</p>
+
+<p>
+  <strong>Datetime:</strong>
+  <%= @point.datetime %>
+</p>
+
+<p>
+  <strong>Message:</strong>
+  <%= @point.message %>
+</p>
+
+<p>
+  <strong>Complete:</strong>
+  <%= @point.complete %>
+</p>
+
+<p>
+  <strong>Creator:</strong>
+  <%= @point.creator %>
+</p>
+
+<p>
+  <strong>Consumer:</strong>
+  <%= @point.consumer %>
+</p>
+
+<%= link_to 'Edit', edit_point_path(@point) %> |
+<%= link_to 'Back', points_path %>

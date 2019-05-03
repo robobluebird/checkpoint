@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  latitude: 1.5
+  longitude: 1.5
+  datetime: 2019-04-30 07:09:56
+  message: MyString
+  complete: false
+  creator: one
+  consumer: one
+
+two:
+  latitude: 1.5
+  longitude: 1.5
+  datetime: 2019-04-30 07:09:56
+  message: MyString
+  complete: false
+  creator: two
+  consumer: two
